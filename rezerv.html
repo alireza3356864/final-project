@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header"  style="border-bottom: 1px solid gray;">
+        <div class="logo">
+            <a href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+        </div>
+        <nav>
+            <ul dir="rtl" class="header-menu">
+                <a href="index.html"><li><span> صفحه اصلی</span> /</li></a>
+                <a href="index2.html"><li><span>تورهای خارجی </span>/</li></a>
+                <a href="index3.html"><li><span>تورهای ایرانی </span>/</li></a>
+                <a href="rezerv.html"><li><span>رزرو هتل </span>/</li></a>
+                <a href="about.html"><li><span>درباره ی ما </span></li></a>
+            </ul>
+        </nav>
+        <div class="icons">
+            <div id="search-icon" class="search-icon prefect-centering">
+                <a href="#">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+            <input id="search-input" class="search-input hidden" type="text" placeholder="کجا میخوای بری؟">
+            
+            <div class="drop-down-menu prefect-centering" onclick="showmenu()">
+                <a href="#">
+                    <i class="fa fa-bars" id="menu-avaz"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+   
+
+        <ul class="header-menu-burger" id="menu">
+            <a href="index.html"><li><span> صفحه اصلی</span> /</li></a>
+                <a href="index2.html"><li><span>تورهای خارجی </span>/</li></a>
+                <a href="index3.html"><li><span>تورهای ایرانی </span>/</li></a>
+                <a href="rezerv.html"><li><span>رزرو هتل </span>/</li></a>
+                <a href="about.html"><li><span>درباره ی ما </span></li></a>
+        </ul>
+
+
+    <main>
+       
+       
+       
+        <section class="popular">
+            <section class="row popular-heading">
+                <h3 class="popular-title">رزرو هتل</h3>
+                <p class="popular-description"></p>
+            </section>
+            <section class="row popular-container">
+
+                <article class="redius">
+                    <img class="" src="images/hotel/abbasi.jpg" alt="">
+            <div class="tozihat">
+               <p dir="rtl">هتل:عباسی</p>
+               <p dir="rtl">قیمت بلیط:400,000  تومان</p>
+               <p dir="rtl">زمان :یک روز اقامت   </p>
+               <p dir="rtl">شماره پیگیری:493</p>
+               <div style="display: flex; justify-content: center; align-items: center; ">
+                <button dir="rtl" style="margin-bottom: 5px; cursor: pointer; font-size: 25px; color: white;  border: none; padding: 15px; width: 200px; background-color: lightseagreen;border-radius: 40px;">خرید بلیط</button>
+             </div>
+            </div>
+                </article>
+                <article>
+                    <img class="redius" src="images/hotel/azadi.jpg" alt="">
+                    <div class="tozihat">
+                        <p dir="rtl">هتل:ازادی</p>
+                        <p dir="rtl">قیمت بلیط:400,000  </p>
+                        <p dir="rtl">زمان :یک روز اقامت</p>
+                        <p dir="rtl">شماره پیگیری:026</p>
+                        <div style="display: flex; justify-content: center; align-items: center; ">
+                            <button dir="rtl" style="margin-bottom: 5px; cursor: pointer; font-size: 25px; color: white;  border: none; padding: 15px; width: 200px; background-color: lightseagreen;border-radius: 40px;">خرید بلیط</button>
+                         </div>
+                     </div>
+                </article>
+                <article>
+                    <img class="redius" src="images/hotel/darvishi.jpg" alt="">
+                    <div class="tozihat">
+                        <p dir="rtl">هتل:درویشی</p>
+                        <p dir="rtl">قیمت بلیط:500,000  تومان</p>
+                        <p dir="rtl">زمان :یک روز اقامت</p>
+                        <p dir="rtl">شماره پیگیری:013</p>
+                        <div style="display: flex; justify-content: center; align-items: center; ">
+                            <button dir="rtl" style="margin-bottom: 5px; cursor: pointer; font-size: 25px; color: white;  border: none; padding: 15px; width: 200px; background-color: lightseagreen;border-radius: 40px;">خرید بلیط</button>
+                         </div>
+                     </div>
+                </article>
+                <article>
+                    <img class="redius" src="images/hotel/espinas.jpg" alt="">
+                    <div class="tozihat">
+                        <p dir="rtl">هتل:اسپیناس</p>
+                        <p dir="rtl">قیمت بلیط:400,000 تومان</p>
+                        <p dir="rtl">زمان :یک روز اقامت</p>
+                        <p dir="rtl">شماره پیگیری:364</p>
+                        <div style="display: flex; justify-content: center; align-items: center; ">
+                            <button dir="rtl" style="margin-bottom: 5px; cursor: pointer; font-size: 25px; color: white;  border: none; padding: 15px; width: 200px; background-color: lightseagreen;border-radius: 40px;">خرید بلیط</button>
+                         </div>
+                     </div>
+                </article>
+                <article>
+                    <img class="redius" src="images/hotel/ghasrtalii.jpg" alt="">
+                    <div class="tozihat">
+                        <p dir="rtl">هتل:قصر طلایی</p>
+                        <p dir="rtl">قیمت بلیط:300,000  تومان</p>
+                        <p dir="rtl">زمان :یک روز اقامت</p>
+                        <p dir="rtl">شماره پیگیری:019</p>
+                        <div style="display: flex; justify-content: center; align-items: center; ">
+                            <button dir="rtl" style="margin-bottom: 5px; cursor: pointer; font-size: 25px; color: white;  border: none; padding: 15px; width: 200px; background-color: lightseagreen;border-radius: 40px;">خرید بلیط</button>
+                         </div>
+                     </div>
+                </article>
+                <article>
+                    <img class="redius" src="images/hotel/ramsar.jpg" alt="">
+                    <div class="tozihat">
+                        <p dir="rtl">هتل:رامسر</p>
+                        <p dir="rtl">قیمت بلیط:500,000  تومان</p>
+                        <p dir="rtl">زمان :یک روز اقامت</p>
+                        <p dir="rtl">شماره پیگیری:018</p>
+                        <div style="display: flex; justify-content: center; align-items: center; ">
+                            <button dir="rtl" style="margin-bottom: 5px; cursor: pointer; font-size: 25px; color: white;  border: none; padding: 15px; width: 200px; background-color: lightseagreen;border-radius: 40px;">خرید بلیط</button>
+                         </div>
+                     </div>
+                </article>
+                
+
+            </section>
+        </section>
+        
+        
+    </main>
+
+
+
+
+
+
+
+    <footer>
+        <div class="left-footer">
+            <img src="images/footer_logo.png" alt="" class="footer-img">
+            <ul class="footer-info">
+                <li>5th flora, 700/D kings road, green</li>
+                <li>lane New York-1782
+                </li>
+                <li>+10 367 826 2567</li>
+                <li>contact@carpenter.com</li>
+            </ul>
+        </div>
+        <div class="right-footer">
+            <h3 class="footer-title">Popular destination</h3>
+            <ul class="links">
+                <li>
+                    <a href="#">
+                        Indonesia</a>
+                </li>
+                <li>
+                    <a href="#">
+                        India</a>
+                </li>
+                <li>
+                    <a href="#">
+                        Italy</a>
+                </li>
+                <li>
+                    <a href="#">
+                        Franch</a>
+                </li>
+                <li>
+                    <a href="#">
+                        America</a>
+                </li>
+                <li>
+                    <a href="#">
+                        Switzerland</a>
+                </li>
+                <li>
+                    <a href="#">
+                        Canada</a>
+                </li>
+                <li>
+                    <a href="#">
+                        England</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/javascript.js"></script>
+</body>
+</html>

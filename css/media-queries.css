@@ -1,0 +1,114 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .search-icon{
+        background-color: #ff4a52;
+        color: #fff;
+        width: 45px;
+        position: absolute;
+        right: 45px;
+        top: 0;
+        bottom: 0;
+        
+    }
+    .drop-down-menu{
+        background-color: #1ec6b6;
+        width: 45px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1000;
+
+        padding-left:0;
+        padding-right:0;
+    }
+    .drop-down-menu i,.search-icon i{
+        color: #fff;
+    }
+    footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .search-form input{
+        width: 70%;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .show{
+        display: none;
+    }
+    .header-menu-burger{
+        display: none;
+    }
+    nav li{
+        display: inline-block;
+    }
+    .drop-down-menu{
+        display: none!important;
+    }
+    .search-icon{
+        right: 0;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .search-icon{
+        width: 100px;
+    }
+    .search-bar{
+        flex-direction: row;
+    }
+    .search-form{
+        flex-direction: row;
+    }
+    .search-form input{
+        margin-top: 0;
+    }
+    .search-btn{
+        margin-top: 0;
+    }
+    .popular-container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    
+    .news-letter-container{
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .news-letter-form{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .news-letter-form input{
+        height: 50px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .news-letter-btn{
+        width: 80px!important;
+        height: 50px;
+        padding: 0!important;
+        margin-bottom: 10px;
+    }
+    .news-letter-text{
+        margin-top: 0!important;
+        margin-right: 30px;
+    }
+}
